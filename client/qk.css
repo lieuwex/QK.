@@ -1,0 +1,53 @@
+body {
+	margin: 0;
+	background-color: black;
+}
+
+div.input {
+	border: none;
+	width: 100vw;
+	height: calc(100% - 50px);
+	position: absolute;
+	font-size: 30px;
+}
+
+a.url {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	font-weight: 100;
+	-webkit-font-smoothing: antialiased;
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	font-size: 40px;
+	color: white;
+}
+
+div.view {
+	width: 100vw;
+	height: calc(100% - 50px);
+	position: absolute;
+	font-size: 30px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+}
+
+div.logo {
+	font-weight: 100;
+	-webkit-font-smoothing: antialiased;
+	font-family: 'Roboto', sans-serif;
+	font-size: 40px;
+
+	cursor: pointer;
+
+	color: white;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+div.logo:after {
+	content: ".";
+	color: cyan;
+}

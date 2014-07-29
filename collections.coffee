@@ -1,0 +1,1 @@
+@qks = new Meteor.Collection 'qks'
