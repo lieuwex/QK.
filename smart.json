@@ -1,6 +1,7 @@
 {
   "packages": {
     "iron-router": {},
-    "reactive-ace": {}
+    "reactive-ace": {},
+    "fast-render": {}
   }
 }

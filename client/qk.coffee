@@ -16,5 +16,5 @@ Template.bottomBar.rendered = -> $(".logo").click -> window.open "http://twitter
 Deps.autorun -> Session.set "qk", if Session.get("qk")? then qks.findOne(Session.get("qk")._id) else null
 
 Template.bottomBar.hasUrl = -> Session.get("qk")?
-Template.bottomBar.url = -> Router.routes['qkShow'].path _id: Session.get("qk")?._id._str
+Template.bottomBar.url = -> Router.routes['view'].path _id: Session.get("qk")?._id._str
 Template.bottomBar.isPhone = -> window.matchMedia("only screen and (max-width: 760px)").matches

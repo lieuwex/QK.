@@ -31,6 +31,7 @@ div.view {
 	font-size: 30px;
 	font-family: 'Roboto', sans-serif;
 	color: white;
+	overflow-y: auto;
 }
 
 div.logo {
@@ -42,7 +43,7 @@ div.logo {
 	cursor: pointer;
 
 	color: white;
-	position: absolute;
+	position: fixed;
 	bottom: 0;
 	left: 0;
 }
@@ -50,4 +51,16 @@ div.logo {
 div.logo:after {
 	content: ".";
 	color: cyan;
+}
+
+div.loading {
+	color: white;
+	text-align: center;
+	font-weight: 100;
+	-webkit-font-smoothing: antialiased;
+	font-family: 'Roboto', sans-serif;
+	font-size: 370px;
+	margin-top: 25vh;
+	text-decoration: overline underline;
+	overflow-x: hidden;
 }

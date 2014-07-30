@@ -1,2 +1,2 @@
 Meteor.methods
-	cleanUp: -> qks.remove { text: "" }
+	cleanUp: -> qks.remove { text: /(^\s+$)|(^$)/ }
